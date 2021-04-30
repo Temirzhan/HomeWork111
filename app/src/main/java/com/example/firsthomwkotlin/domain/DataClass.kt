@@ -1,4 +1,3 @@
-package com.example.firsthomwkotlin.domain;
+package com.example.firsthomwkotlin.domain
 
-public class DataClass {
-}
+data class DataClass (val dataTitle: String,val dataInt:Int = 5)

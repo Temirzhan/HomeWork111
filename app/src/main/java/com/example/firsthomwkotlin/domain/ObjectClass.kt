@@ -1,4 +1,9 @@
-package com.example.firsthomwkotlin.domain;
+package com.example.firsthomwkotlin.domain
 
-public class ObjectClass {
+object ObjectClass{
+    private val count:Int =5;
+
+    fun getCount():Int{
+        return count
+    }
 }
